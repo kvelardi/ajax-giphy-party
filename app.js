@@ -1,18 +1,17 @@
 console.log("Let's get this party started!");
 
 //a function to gather the input data from the user
+function userInput (){
+    const submitBtn = document.getElementById("submit");
+    const search = document. getElementById("search");
+    
+    submitBtn.addEventListener("click", function (e){
+        e.preventDefault();
+        console.log (search.value)  
+    });
+};
 
-        const search = document.querySelector('input').value;
-        console.log (search);
-
-    // search.addEventListener(click, userInput);
-
-// function userInput(e){
-//     document.querySelectorAll('search').innerText;
-// }
-
-// userInput();
-
+userInput();
 
 
 //
@@ -21,3 +20,5 @@ console.log("Let's get this party started!");
 //-send inputValue data through API using a "get request"
 //-"post" returned values in the "result-container"
 //-make "clear" button remove contents from the page
+
+
