@@ -1,16 +1,22 @@
-// console.log("Let's get this party started!");
+console.log("Let's get this party started!");
 
 //a function to gather the input data from the user
-function getUserInput(){
-    var inputValue = document.getElementById("search").value;  
-    console.log (inputValue).value;
-};
 
+        const search = document.querySelector('input').value;
+        console.log (search);
+
+    // search.addEventListener(click, userInput);
+
+// function userInput(e){
+//     document.querySelectorAll('search').innerText;
+// }
+
+// userInput();
 
 
 
 //
-//-tie "search-gif" to submit button
+//-link "search" to submit button
 //-make submit button clickable
 //-send inputValue data through API using a "get request"
 //-"post" returned values in the "result-container"
