@@ -15,18 +15,23 @@
         <input id="search"
         type="search" 
         class="search"
-        placeholder="search">
+        name="sear
+        ch"
+        placeholder="search for gif"
+        method="get">
     
-        <input id="submit"
+        <button id="submitBtn"
         class = "submit"
         type="submit"
-        value="Submit">
+        >Search</button>
 
         <button id="clear">Clear Contents</button>
       </form>
   </div>
+<hr>
 
-  <div class="results-container"></div>
+  <div
+  id="results" class="results"></div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script> 
 <script src="https://unpkg.com/axios/dist/axios.js"></script>
